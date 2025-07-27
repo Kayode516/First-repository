@@ -1,10 +1,10 @@
 age = 56
 name = "ademola"
 meter = 8.89
-is_studnet = True
+is_student = True
 print("Age:", age)
 print("Name:", name)
 print("Meter:", meter)
-print(is_studnet)
+print(is_student)
 print(type(meter))
-print(type(is_studnet))
+print(type(is_student))
