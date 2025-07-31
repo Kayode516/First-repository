@@ -8,3 +8,8 @@ print("Meter:", meter)
 print(is_student)
 print(type(meter))
 print(type(is_student))
+food_cost = 567
+if food_cost > 500:
+    print("Expensive")
+else:
+    print("Afordable")
