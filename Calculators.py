@@ -14,7 +14,6 @@ while attempt < 3:
     else:
         print("Access Denied")
         attempt += 1
-
 if attempt == 3:
-    print("Too many attempt, Access denied")
+    print("Too many attempts, Access denied")
 

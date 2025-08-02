@@ -1,0 +1,88 @@
+body {
+    font-family: 'segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+section {
+    background: linear-gradient(135deg, #1f1c2c);
+    padding: 4rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 20px 40px rgba(233, 230, 230, 0.966);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solidrgba(255, 255, 255, 0.2);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    animation: fadeInup is forwards ease-out;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #f2f3f5;
+}
+
+.project {
+    background: linear-gradient(135deg, #1f1c2c);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-left: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.contact {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+a {
+    color: #edeff1;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    header h1{
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 2rem;
+    }
+}
