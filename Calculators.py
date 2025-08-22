@@ -15,5 +15,5 @@ while attempt < 3:
         print("Access Denied")
         attempt += 1
 if attempt == 3:
-    print("Too many attempts, Access denied")
+    print("Too many attempts: Access denied")
 
